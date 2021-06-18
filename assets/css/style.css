@@ -83,7 +83,7 @@ Estilos da página contato.html
 .containerContato{
 
     display: flex;
-    flex-flow: row wrap ;
+    flex-flow: column wrap;
     justify-content: left;
     align-items: center;
     padding: 30px;
