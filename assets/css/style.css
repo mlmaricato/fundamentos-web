@@ -2,6 +2,10 @@
 Estilos da página index.html
 */
 
+.corFundo{
+    background-color:#DDD5CE
+}
+
 .center {
     text-align: center;
 }
@@ -10,40 +14,40 @@ Estilos da página index.html
     text-align: justify;
 }
 
-.colorH1{
-    color: #D42951;
-    background-color: lightgreen;
+.containerIntroducao{
+    text-align: center;
 }
 
 .subtituloUm{
     padding: 15px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: sans-serif;
 }
 
-.container{
+.containerSobreSerie{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    margin: 30px;
-    background-color: #D7DFFC;
-
+    padding: 10px;
+    margin: 10px;
 }
 
 .p{
     margin-left: 30px;
 }
 
-.margemImagem{
-    margin: 30px;
+.imagemPersonagens{
+    text-align: center;
 }
+
+
 
 
 #menu li{
    display: inline;
-   padding: 15px;
-   background-color: #b2bec3; 
-   
+   padding: 10px; 
 }
 
 #menu li a{
@@ -56,9 +60,9 @@ Estilos da página index.html
     color: #b71540;
 }
 
-.border{
+/* .border{
    border-radius: 50%; 
-}
+} */
 .wh300{
     width: 300px;
     height: 300px;
@@ -73,9 +77,6 @@ Estilos da página index.html
     height: 30px;
 }
 
-
-
-
 /*
 Estilos da página contato.html
 */
@@ -88,10 +89,5 @@ Estilos da página contato.html
     align-items: center;
     padding: 30px;
     margin: 30px;
-    background-color: #D7DFFC;
-
 }
 
-.corFundo{
-    background-color:#D7FCE4
-}
