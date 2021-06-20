@@ -42,12 +42,10 @@ Estilos da página index.html
     text-align: center;
 }
 
-
-
-
 #menu li{
    display: inline;
-   padding: 10px; 
+   padding: 10px;
+   font-weight: bold; 
 }
 
 #menu li a{
